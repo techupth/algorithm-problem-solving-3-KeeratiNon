@@ -16,3 +16,5 @@ function sortCustomerName(customers) {
 
 // ตอบคำถามตรงนี้จ้า
 console.log(sortCustomerName(customers))
+
+//Big O = O(n^2) เพราะมีการใช้ loop ซ้อน loop ทำให้เพิ่มจำนวนรอบเป็น n^2 เท่า
